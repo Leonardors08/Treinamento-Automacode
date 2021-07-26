@@ -1,5 +1,5 @@
 {
-    "baseUrl":"http://demo.automationtesting.in/Register.html",
+    "baseUrl":"https://www.netshoes.com.br/",
     "viewportHeight": 660,
     "viewportWidth": 1000,
     "defaultCommandTimeout": 60000,

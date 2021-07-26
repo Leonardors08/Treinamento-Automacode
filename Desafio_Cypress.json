@@ -1,0 +1,14 @@
+{
+    "baseUrl":"https://www.netshoes.com.br/",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "defaultCommandTimeout": 60000,
+    "video": true,
+    "videoUploadOnPasses": true,
+    "videoCompression": 32,
+
+    "reporter": "mochawesome",
+    "reporterptions": {
+        "overwrite": false
+    }
+}

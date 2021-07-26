@@ -1,72 +1,18 @@
 class testElementos{
-    campoPrimeiroNome = () => {
-        return ':nth-child(1) > :nth-child(2) > .form-control'
-    }
-    campoSegundoNome = () => {
-        return ':nth-child(1) > :nth-child(3) > .form-control'
-    }
-    campoEndereco = () => {
-        return '.col-md-8 > .form-control' 
-    }
-    campoEmail = () => {
-        return '#eid > .form-control' 
-    }
-    campoTelefone = () => {
-        return 'input[type="tel"]' 
-    }
-    campoSexo = () => {
-        return 'input[type="radio"]'
-    }
-    campoHobbies = () => {
-        return '#checkbox2'
-    }
-   
-    campoLinguagem = () => {
-        return '#msdd' 
+    campoPesquisar = () => {
+        return '#search-input'
     }
 
-    campoSkill =() => {
-        return '#Skills'
+    iconeLupa = () => {
+        return  '[qa-automation="home-search-button"]'
     }
 
-    LabelSkill =() => {
-        return ':nth-child(8) > .col-md-3'
+    addcarrinho = () => {
+        return  'buy-button-now button-no-float'
     }
 
-    campoPais = () => {
-        return '#countries' 
+    addProduto = () => {
+        return  '#preview'
     }
-    campoLocal = () => {
-        return '#country'
-    }
-    campoAno = () => { 
-        return '#yearbox'
-     }
-
-    campoMes = () => { 
-        return '[placeholder="Month"]'
-     }
-
-    campoDia = () => { 
-        return '#daybox' 
-    }
-
-    CampoSenha = () => { 
-        return '#firstpassword' 
-    }
-
-    CampoConfirmarSenha = () => {
-         return '#secondpassword' 
-        } 
-
-    CampoSubmitButton = () => { 
-        return '#submitbtn' 
-    }
-    
-
-    botaorefresh = () => {
-        return "#Button1"
-    }
-    
 }
 export default testElementos;
